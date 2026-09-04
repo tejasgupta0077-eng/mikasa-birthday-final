@@ -3014,4 +3014,51 @@ h3 span {
     to {
         opacity: .8;
     }
+}/* ===== CLEAN MOBILE FIX ===== */
+
+@media (max-width: 700px) {
+
+    /* REASONS */
+    .reasons-section .section-content {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+
+    .reasons-section .reason-card {
+        width: 100%;
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: 0;
+    }
+
+    /* CRICKET */
+    .cricket-dream-section .section-content {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+
+    .cricket-dream-section .cricket-dream-card {
+        width: 100%;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: 0;
+    }
+
+    .cricket-dream-section .cricket-mini-game {
+        width: 100%;
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
