@@ -3135,4 +3135,30 @@ canvas {
         width: 100% !important;
         grid-template-columns: 1fr !important;
     }
+}/* ===== MOBILE FIX: REASONS + CRICKET ===== */
+
+@media (max-width: 700px) {
+
+    /* Reason card */
+    .reasons-section .reason-card {
+        position: relative !important;
+        left: -18px !important;
+        width: calc(100% - 4px) !important;
+        max-width: calc(100% - 4px) !important;
+    }
+
+    /* Cricket section card */
+    .cricket-dream-section .section-content {
+        position: relative !important;
+        left: -18px !important;
+        width: calc(100% - 4px) !important;
+        max-width: calc(100% - 4px) !important;
+    }
+
+    /* Cricket pitch stays centered inside */
+    .cricket-dream-section .cricket-mini-game {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
 }
